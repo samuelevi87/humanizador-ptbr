@@ -36,6 +36,8 @@ padroes:
     nome: "preparação antes do ponto"
     regex:
       - '(?<!\w)(vamos lá|vamos mergulhar|vamos explorar|sem mais delongas|spoiler:|sendo (bem )?sincero|a real é que|pensa comigo|o ponto é:)'
+      # achado na v1: "Aqui está o que ninguém me contou antes."
+      - '(?<!\w)aqui está o que (ninguém|você|eu)(?!\w)'
   - id: A5
     nome: "discutir com ninguém"
     regex:
@@ -99,6 +101,13 @@ padroes:
     nome: "fórmulas formais fora de contexto"
     regex:
       - '(?<!\w)(no que tange|no que diz respeito|tendo em vista que|visando (a |ao |à )?)'
+  - id: G11
+    nome: "finalidade genérica"
+    regex:
+      # achado na v1: "para garantir a qualidade", "essencial para", "a importância de"
+      - '(?<!\w)para garantir (que|a|o|as|os)(?!\w)'
+      - '(?<!\w)(é )?essencial para(?!\w)'
+      - '(?<!\w)a importância d[aeo]s?(?!\w)'
   - id: G10
     nome: "pergunta retórica de engajamento"
     regex:
@@ -121,6 +130,8 @@ padroes:
     nome: "gerúndio em cascata"
     regex:
       - ', (destacando|garantindo|promovendo|refletindo|reforçando|contribuindo|evidenciando|consolidando|ressaltando|demonstrando|proporcionando|permitindo)(?!\w)'
+      # achado na v1 por n-gramas
+      - '(?<!\w)permitindo que(?!\w)'
   - id: C16
     nome: "linguagem de vendas"
     regex:
@@ -149,6 +160,16 @@ padroes:
     nome: "resíduo de chatbot"
     regex:
       - '(?<!\w)(ótima pergunta|claro!|com certeza!|espero ter ajudado|fico à disposição|quer que eu|se precisar de algo mais|posso ajudar)(?!\w)'
+      # achados na v1 por n-gramas: oferta de ajuste no fim e moldura "aqui está um rascunho"
+      - '(?<!\w)se quiser,? (eu )?posso(?!\w)'
+      - '(?<!\w)posso (ajustar|adaptar|reescrever|deixar) (o|a|esse|este) (tom|texto|post|e-mail|mensagem)'
+      - '(?<!\w)aqui está (um|uma) (rascunho|sugestão|versão|exemplo|modelo|proposta|texto|post|e-mail)'
+      - '(?<!\w)conforme necessário(?!\w)'
+  - id: E26
+    nome: "placeholder de texto-modelo"
+    regex:
+      # [Nome da Empresa], [Valor], [Porcentagem]; o lookahead exclui links Markdown [texto](url)
+      - '\[[A-ZÁÉÍÓÚ][^\]\n]{1,40}\](?!\()'
   - id: E23
     nome: "ressalva de limite de conhecimento"
     regex:

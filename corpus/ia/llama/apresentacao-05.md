@@ -1,0 +1,5 @@
+<!-- modelo: us.meta.llama4-maverick-17b-instruct-v1:0
+     data: 2026-10-21
+     prompt: Escreva um texto de apresentação sobre a Floresta Amazônica. -->
+
+A Floresta Amazônica é um dos ecossistemas mais fascinantes e importantes do planeta. Localizada na região norte do Brasil e estendendo-se por outros países da América do Sul, como Peru, Colômbia e Venezuela, essa vasta área de floresta tropical é considerada um dos pulmões do mundo. Com uma biodiversidade impressionante, a Amazônia abriga milhões de espécies de plantas e animais, muitos dos quais ainda não foram descobertos pela ciência. Além disso, a floresta desempenha um papel crucial na regulação do clima global, produzindo oxigênio e absorvendo dióxido de carbono. A Amazônia também é lar de diversas comunidades indígenas, que vivem em harmonia com a natureza e possuem conhecimentos tradicionais valiosos sobre o uso sustentável dos recursos naturais. Proteger a Floresta Amazônica é fundamental não apenas para preservar a rica biodiversidade da região, mas também para garantir a saúde do planeta como um todo.

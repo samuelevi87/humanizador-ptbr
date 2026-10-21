@@ -1,0 +1,5 @@
+<!-- modelo: us.meta.llama4-maverick-17b-instruct-v1:0
+     data: 2026-10-21
+     prompt: Escreva um texto de apresentação sobre o arquiteto Oscar Niemeyer. -->
+
+Oscar Niemeyer foi um renomado arquiteto brasileiro, nascido em 1907, no Rio de Janeiro. Ele é considerado um dos principais nomes da arquitetura moderna brasileira e um dos mais importantes arquitetos do século XX. Niemeyer é conhecido por suas obras inovadoras e arrojadas, que misturam elementos da arquitetura moderna com a cultura e a paisagem brasileira. Alguns de seus projetos mais famosos incluem o Museu de Arte Moderna do Rio de Janeiro, a Catedral Metropolitana de Brasília e o Palácio da Alvorada. Sua arquitetura é caracterizada por curvas sinuosas, formas orgânicas e uma integração harmoniosa com o entorno natural. Niemeyer recebeu inúmeros prêmios e reconhecimentos ao longo de sua carreira, incluindo o Prêmio Pritzker de Arquitetura, considerado o "Nobel da Arquitetura". Sua contribuição para a arquitetura moderna é inestimável, e suas obras continuam a inspirar arquitetos e designers em todo o mundo.

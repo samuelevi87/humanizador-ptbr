@@ -33,22 +33,44 @@ GENEROS = {
     "post-linkedin": [
         "Escreva um post para o LinkedIn sobre o que aprendi migrando os sistemas da minha empresa para computação em nuvem.",
         "Escreva um post para o LinkedIn sobre como o aprendizado de máquina está mudando o atendimento ao cliente.",
+        # Pedidos 03 a 06 de cada gênero: temas variados, longe de tecnologia e atendimento,
+        # para que a descoberta de n-gramas separe hábito de escrita de assunto.
+        "Escreva um post para o LinkedIn sobre minha volta ao trabalho depois da licença-paternidade.",
+        "Escreva um post para o LinkedIn sobre o que aprendi gerenciando uma padaria familiar por dez anos.",
+        "Escreva um post para o LinkedIn comemorando cinco anos de empresa.",
+        "Escreva um post para o LinkedIn sobre uma demissão que mudou minha carreira.",
     ],
     "relatorio": [
         "Escreva um relatório técnico curto sobre a adoção de Linux em servidores de uma empresa de médio porte.",
         "Escreva um relatório resumindo os resultados de um projeto piloto de chatbot para atendimento em um e-commerce.",
+        "Escreva um relatório sobre o consumo de energia de uma fábrica de móveis no último ano.",
+        "Escreva um relatório sobre a evasão de alunos num curso técnico de enfermagem.",
+        "Escreva um relatório sobre a vistoria de um prédio residencial de 1985.",
+        "Escreva um relatório sobre as vendas de uma rede de farmácias no primeiro semestre.",
     ],
     "email-cliente": [
         "Escreva um e-mail para um cliente explicando que a entrega do projeto vai atrasar duas semanas por causa de uma integração com o ERP.",
         "Escreva um e-mail para um cliente apresentando a proposta de um agente de IA para responder dúvidas sobre produtos.",
+        "Escreva um e-mail para um cliente cobrando uma fatura vencida há 30 dias.",
+        "Escreva um e-mail para um fornecedor reclamando de um lote de tecido com defeito.",
+        "Escreva um e-mail para um cliente confirmando a reserva de um salão de festas.",
+        "Escreva um e-mail para um paciente remarcando uma consulta odontológica.",
     ],
     "apresentacao": [
         "Escreva um texto de apresentação sobre a cidade de Blumenau.",
         "Escreva um texto de apresentação sobre a história da Embraer.",
+        "Escreva um texto de apresentação sobre o café produzido no sul de Minas Gerais.",
+        "Escreva um texto de apresentação sobre a obra de Clarice Lispector.",
+        "Escreva um texto de apresentação sobre a Floresta Amazônica.",
+        "Escreva um texto de apresentação sobre o arquiteto Oscar Niemeyer.",
     ],
     "resposta-chat": [
         "O que é o Plano Real e por que ele foi importante?",
         "Explique o que é a linguagem Python e para que ela serve.",
+        "Quem foi Santos Dumont?",
+        "Como funciona a Petrobras e quem é dono dela?",
+        "Por que a Copa do Mundo de 2014 foi polêmica no Brasil?",
+        "Qual a diferença entre um MEI e uma microempresa?",
     ],
 }
 
