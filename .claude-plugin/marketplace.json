@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "humanizador-ptbr",
+  "owner": {
+    "name": "samuelevi87",
+    "url": "https://github.com/samuelevi87"
+  },
+  "description": "Instala o humanizador-ptbr como plugin do Claude Code.",
+  "plugins": [
+    {
+      "name": "humanizador-ptbr",
+      "source": "./",
+      "description": "Reescreve texto em português do Brasil com cara de IA para que soe como quem escreveu, sem mudar o que diz.",
+      "license": "MIT",
+      "keywords": ["escrita", "revisão", "português", "pt-br", "humanizer", "estilo"]
+    }
+  ]
+}

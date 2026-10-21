@@ -23,7 +23,7 @@ from pathlib import Path
 
 API = "https://pt.wikipedia.org/w/api.php"
 # Política da Wikimedia exige User-Agent identificável
-USER_AGENT = "humanizador-ptbr-corpus/0.1 (https://github.com/; uso de pesquisa)"
+USER_AGENT = "humanizador-ptbr-corpus/0.1 (https://github.com/samuelevi87/humanizador-ptbr; uso de pesquisa)"
 CORTE = "2022-11-29T23:59:59Z"
 
 # No Windows, a loja de certificados do sistema pode ter raízes vencidas; o pacote
