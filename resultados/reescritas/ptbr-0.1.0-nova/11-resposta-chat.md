@@ -1,0 +1,4 @@
+<!-- skill: ptbr-0.1.0-nova
+     modelo: us.amazon.nova-pro-v1:0 -->
+
+RAG e fine-tuning são abordagens distintas para aprimorar as respostas de um modelo. O RAG (Retrieval-Augmented Generation) busca documentos ou informações no momento da pergunta e os incorpora ao contexto do modelo. Essa abordagem é ideal quando as informações mudam frequentemente, pois permite atualizar a base de documentos sem a necessidade de retreinar o modelo. Por outro lado, o fine-tuning ajusta os pesos do modelo usando exemplos de treinamento, sendo mais adequado quando o objetivo é ensinar o modelo a responder em um formato, estilo ou padrão de comportamento específico. Em suma, o RAG fornece informações atualizadas para consulta, enquanto o fine-tuning modifica o modelo para responder de maneira específica.
