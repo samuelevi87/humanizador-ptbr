@@ -46,15 +46,18 @@ if __name__ == "__main__":
     ap.add_argument("--perfil", required=True)
     ap.add_argument("--regiao", default="us-east-1")
     ap.add_argument("--modelo", required=True)
+    ap.add_argument("--conjunto", choices=["teste", "validacao"], default="teste")
     args = ap.parse_args()
 
     cliente = boto3.Session(profile_name=args.perfil, region_name=args.regiao).client("bedrock-runtime")
     sistema = corpo_skill(args.skill)
-    saida = RAIZ / "resultados" / "reescritas" / args.nome
+    # Reescritas do conjunto de validação ficam numa pasta separada para não misturar com o teste
+    saida = RAIZ / "resultados" / ("reescritas" if args.conjunto == "teste" else "reescritas-validacao") / args.nome
     saida.mkdir(parents=True, exist_ok=True)
+    entrada = TESTE.parent / args.conjunto
 
-    # Textos de teste (NN-*.md) e controles humanos (controle-*.md); as fichas .fatos.md ficam de fora
-    for arq in sorted(p for p in TESTE.glob("*.md") if not p.name.endswith(".fatos.md")):
+    # Textos (NN-*.md) e controles humanos (controle-*.md); as fichas .fatos.md ficam de fora
+    for arq in sorted(p for p in entrada.glob("*.md") if not p.name.endswith(".fatos.md")):
         destino = saida / arq.name
         if destino.exists():  # reexecução não gasta chamada de novo
             continue

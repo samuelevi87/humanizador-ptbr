@@ -97,7 +97,12 @@ if __name__ == "__main__":
     ap.add_argument("--perfil", required=True)
     ap.add_argument("--regiao", default="us-east-1")
     ap.add_argument("--juiz", required=True, help="modelId do juiz, de família diferente dos reescritores")
+    ap.add_argument("--conjunto", choices=["teste", "validacao"], default="teste")
     args = ap.parse_args()
+    if args.conjunto == "validacao":
+        # Validação lê de outra pasta de textos e de reescritas, e grava com sufixo próprio
+        TESTE = TESTE.parent / "validacao"
+        REESCRITAS = REESCRITAS.parent / "reescritas-validacao"
 
     cliente = boto3.Session(profile_name=args.perfil, region_name=args.regiao).client("bedrock-runtime")
     linhas, soma = [], {"pontos_a": 0.0, "nota_a": 0.0, "nota_b": 0.0, "perd_a": 0, "inv_a": 0, "perd_b": 0, "inv_b": 0}
@@ -133,6 +138,7 @@ if __name__ == "__main__":
     for nome, fa, fb in detalhes:
         if fa.get("perdidos") or fa.get("inventados") or fb.get("perdidos") or fb.get("inventados"):
             resumo += f"**{nome}**: A {json.dumps(fa, ensure_ascii=False)}; B {json.dumps(fb, ensure_ascii=False)}\n\n"
-    destino = RAIZ / "resultados" / f"avaliacao-{args.a}-vs-{args.b}.md"
+    sufixo = "" if args.conjunto == "teste" else "-validacao"
+    destino = RAIZ / "resultados" / f"avaliacao{sufixo}-{args.a}-vs-{args.b}.md"
     destino.write_text(resumo, encoding="utf-8")
     print(f"\nResumo gravado em {destino.relative_to(RAIZ)}")

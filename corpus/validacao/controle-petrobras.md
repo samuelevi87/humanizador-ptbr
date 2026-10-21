@@ -1,0 +1,10 @@
+<!-- fonte: Wikipédia, "Petrobras", revisão 64816209 de 2022-11-27T02:40:57Z
+     https://pt.wikipedia.org/w/index.php?oldid=64816209
+     licença: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/) -->
+
+Petróleo Brasileiro S.A. (Petrobras; pronunciado Petrobrás) é uma empresa de capital aberto (sociedade anônima), cujo acionista majoritário é o Governo do Brasil (União), sendo, portanto, uma empresa estatal de economia mista. Com sede no Rio de Janeiro, opera atualmente em 14 países, no segmento de energia, prioritariamente nas áreas de exploração, produção, refino, comercialização e transporte de petróleo, gás natural e seus derivados. O seu lema atual é "Uma empresa integrada de energia que atua com responsabilidade social e ambiental". Em 2020 Forbes Global 2000, a Petrobras foi classificada como a septuagésima maior empresa pública do mundo.
+
+A empresa foi instituída em 3 de outubro de 1953 e deixou de monopolizar a indústria petroleira no Brasil em 1997, mas continua a ser uma importante produtora do produto, com uma produção diária de mais de 2 milhões de barris (320 mil metros cúbicos). A multinacional é proprietária de refinarias, petroleiros e é uma grande distribuidora de derivados de petróleo. A Petrobras é líder mundial no desenvolvimento de tecnologia avançada para a exploração petrolífera em águas profundas e ultraprofundas.
+
+A Petrobras estava em 2011 no quinto lugar na classificação das maiores petrolíferas de capital aberto do mundo. Em valor de mercado, foi a segunda maior empresa do continente americano e a quarta maior do mundo, no ano de 2010. Em setembro de 2010, passou a ser a segunda maior empresa de energia do mundo, sempre em termos de valor de mercado, segundo dados da Bloomberg e da Agência Brasil. Em setembro de 2010, a empresa ficou conhecida internacionalmente por efetuar a maior capitalização em capital aberto da história: 72,8 bilhões de dólares (a época 127,4 bilhões de reais), praticamente o dobro do recorde até então, que era da Nippon Telegraph and Telephone (NTT), com 36,8 bilhões de dólares capitalizados em novembro de 1987.
+
