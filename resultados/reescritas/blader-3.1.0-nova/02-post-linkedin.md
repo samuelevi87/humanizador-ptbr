@@ -1,0 +1,4 @@
+<!-- skill: blader-3.1.0-nova
+     modelo: us.amazon.nova-pro-v1:0 -->
+
+Substituí um pipeline de RAG por uma busca em catálogo estruturado e obtive melhores resultados. O objetivo era responder perguntas sobre produtos usando um catálogo com 240 fichas em Markdown. O pipeline de busca semântica falhava frequentemente, especialmente quando fichas tinham nomes similares. O modelo encontrava documentos "parecidos", mas não necessariamente os corretos, resultando em respostas erradas. Mudei a abordagem para uma busca orientada por atributos do produto, o que aumentou a precisão das respostas de 61% para 84% em um conjunto de 50 perguntas. A lição é que, em domínios com dados bem delimitados e fichas padronizadas, uma modelagem de catálogo estruturada pode superar uma busca semântica genérica. Embeddings são úteis para significados aproximados, mas estrutura ainda é crucial para encontrar o item exato.

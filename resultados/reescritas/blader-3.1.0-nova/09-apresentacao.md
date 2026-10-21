@@ -1,0 +1,4 @@
+<!-- skill: blader-3.1.0-nova
+     modelo: us.amazon.nova-pro-v1:0 -->
+
+Fundada em 1978 em Brusque, Santa Catarina, a Tecelagem Vale Azul construiu sua trajetória com dedicação, qualidade e compromisso com o setor têxtil. Especializada em tecidos de algodão para cama e banho, a empresa combina tradição e tecnologia para oferecer produtos confortáveis, duráveis e com excelente acabamento. Com 320 colaboradores, a Tecelagem Vale Azul valoriza o trabalho, a inovação e o cuidado em cada etapa do processo produtivo. Ao longo dos anos, consolidou sua presença no mercado nacional e ampliou sua atuação para o exterior, exportando para Uruguai e Paraguai. Com raízes em Brusque e visão voltada para o futuro, a empresa segue comprometida em produzir tecidos de alta qualidade, mantendo a confiança de seus parceiros e contribuindo para o desenvolvimento da indústria têxtil brasileira.
