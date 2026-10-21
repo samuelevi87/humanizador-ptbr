@@ -1,0 +1,29 @@
+<!-- fonte: Wikipédia, "Natura", revisão 64268394 de 2022-08-24T09:04:16Z
+     https://pt.wikipedia.org/w/index.php?oldid=64268394
+     licença: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/) -->
+
+Natura é uma empresa brasileira que atua no setor de produtos cosméticos. Fundada em 1969 por Antônio Luiz Seabra, hoje está presente no Brasil, Argentina, Chile, Colômbia, México, Peru, Venezuela, França e Estados Unidos, além de outros 63 países indiretamente. O número de funcionários, chamados na empresa de "colaboradores", atingiu 7.000 em 2013 e o de consultoras estimado em 1,5 milhão. Com a junção da gigante britânica The Body Shop (2017), e a recente aquisição de parte do grupo americano Avon (2019), o grupo Natura & Com passa a ter 40.000 funcionários.
+
+A Natura foi criada em agosto de 1969 por Antônio Luiz Seabra após abrir uma loja e uma pequena fábrica no bairro da Vila Mariana em São Paulo, em 1974 a empresa deixou de oferecer seus produtos em lojas e passou a vendê-los no modelo de venda-direta.
+
+Em 2016, adquiriu por um valor não informado a compra da Emeis Holdings Pty Ltd, dona da rede de cosméticos australiana Aēsop. Em 2017, realizou a compra da rede The Body Shop da L'Oréal, por cerca de € 1 bilhão, aumentando significantemente sua presença internacional e faturamento global.
+
+Em maio de 2019, a empresa anunciou ao mercado a compra de parte da concorrente norte-americana Avon por aproximadamente US$ 3,7 bilhões (cerca de R$ 15 bilhões) ficando de fora as operações da América do Norte e Japão, criando o quarto maior grupo de beleza do mundo avaliado em US$ 11 bilhões de dólares. A operação foi realizada por meio de trocas de ações entre as duas companhias.
+
+Após a fusão com a Avon , anunciada pela Natura em 22 de maio de 2019 e que deve ser concluída até 22 de julho de 2020, a Natura Cria o grupo Natura & Co, formado por Avon,Natura,The body shopp e Aésop,grupo esse o quarto maior de beleza do mundo, tendo como divisão societária 27% para a Avon e os demais 73% aos donos da Natura e demais acionistas.
+
+Em 2020, sofreu um boicote por parte do Pastor Silas Malafaia, após fazer uma campanha com o influenciador trans Thammy Miranda. Em compensação, as vendas aumentaram muito e a campanha de boicote não foi pra frente.
+
+Em 2007, a companhia investiu cerca de 108 milhões de reais em pesquisa e desenvolvimento de novos produtos, consagrando-se como a empresa de cosméticos da América Latina que mais investe nessa área. Para desenvolver seus produtos, as etapas de desenvolvimento e produção de seus cosméticos, a Natura não realiza desde dezembro de 2006 testes em animais e segue as mais rigorosas normas de segurança internacionais. A empresa detém as certificações NBR ISO 14001 e NBR ISO 9001.
+
+A Natura abriu seu capital na Bovespa em Maio de 2004, tem suas ações listadas no Novo Mercado, o mais alto nível de governança corporativa da Bolsa de Valores de São Paulo, no dia da estreia da empresa na Bovespa, a Natura conseguiu arrecadar R$ 160 milhões. Em 2014, a Natura foi a única empresa brasileira entre as cinquenta marcas de cosméticos mais valiosas do mundo, listadas pelo site Brand Finance. A empresa ficou na 17ª posição, avaliada em US$ 2 465 bilhões.
+
+A empresa trabalha com o modelo da venda direta. É por meio das consultoras e consultores Natura que os produtos chegam às mãos dos clientes.
+
+A Natura foi, em 1983, a primeira empresa a introduzir refis no setor de cosméticos brasileiro. Em 2007 passou a fornecer aos seus consumidores produtos de carbono neutro, graças ao seu Programa Carbono Neutro, destinado a reduzir e compensar as emissões de gases geradores do efeito estufa (GEEs), desde a atividade de extração de matérias-primas até a disposição final do produto no meio ambiente. No mesmo ano, foi pioneira ao disponibilizar aos seus clientes a Tabela Ambiental: um quadro informativo impresso nas embalagens dos produtos, que apresenta dados técnicos sobre as formulações e embalagens. Inspirada na tabela nutricional de produtos alimentícios, traz informações como o percentual de ingredientes de origem vegetal renovável e número recomendado de refilagens.
+
+Sua fábrica, na cidade de Cajamar, na Grande São Paulo, foi projetada com conceitos arquitetônicos que priorizam a sustentabilidade e a ampliação do convívio humano. Em 2012, a Natura inaugurou o Núcleo de Inovação Natura Amazônia, como parte de um programa do MCTI, voltado exclusivamente para o desenvolvimento sustentável de região Amazônica.
+
+Em 27 de setembro 2015, a Natura recebeu o prêmio internacional Champions of the Earth 2015, na categoria "Visão Empreendedora", concedido pelo Programa das Nações Unidas para o Meio Ambiente (PNUMA), em reconhecimento ao compromisso da companhia em priorizar a sustentabilidade na sua estratégia de negócios. O prêmio é a mais alta honraria ambiental concedida pelo PNUMA, que reconhece lideranças mundiais em programas ambientais inspiradores em âmbitos de governo, negócios, pesquisa e ativistas.
+
+A Natura tem procurado diversificar seus canais e pontos de venda com o objetivo de expandir e explorar novos mercados. A Natura se transformou de marca especializada em venda direta através de catálogos e consultoras de venda, à varejista de peso no mercado de cosméticos, inclusive no mercado internacional. A marca conta com seis lojas no exterior, em países como França e Estados Unidos. Em 2016, a marca abriu a sua primeira loja física no shopping Morumbi, em São Paulo com o objetivo de atingir um público mais amplo e diversificado. Em 2017, a nova estratégia da marca propõe a abertura de franquias para as consultoras mais antigas e de maior sucesso da marca. Assim, a empresa torna oficiais os pontos de venda informais que já existem no mercado. No campo social, o Instituto Natura atua desde 2010 na educação básica brasileira com projetos de alfabetização e ampliação da carga horária dos estudantes.

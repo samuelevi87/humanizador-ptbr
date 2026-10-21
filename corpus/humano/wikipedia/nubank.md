@@ -1,0 +1,23 @@
+<!-- fonte: Wikipédia, "Nubank", revisão 64557057 de 2022-10-13T00:22:05Z
+     https://pt.wikipedia.org/w/index.php?oldid=64557057
+     licença: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/) -->
+
+Nubank é uma empresa startup brasileira pioneira no segmento de serviços financeiros, atuando como operadora de cartões de crédito e fintech com operações no Brasil, sediada em São Paulo e fundada em 6 de maio de 2013 por David Vélez, Cristina Junqueira e Edward Wible. Em 2014, a empresa lançou o seu primeiro produto, um cartão de crédito internacional com a bandeira Mastercard, sem anuidade e completamente gerenciado por meio de um aplicativo. Em 2017, o Nubank também lançou seu programa de benefícios, o Nubank Rewards, e a anteriormente denominada NuConta, agora chamada conta digital do Nubank. Em 2019, passou a oferecer empréstimos para alguns clientes, e em junho de 2021 o Nubank contava com 40 milhões de clientes.
+
+A primeira compra realizada com um cartão Nubank ocorreu em 1º de abril de 2014. Em 2018, o Nubank atingiu o status de startup unicórnio ao atingir avaliação de preço de mercado no valor de 1 bilhão de dólares, sendo a terceira empresa brasileira com esta marca até então. Hoje, a empresa é a 4ª instituição financeira mais valiosa da América Latina, ultrapassando tradicionais instituições, como o Banco do Brasil.
+
+Entre seus investidores, estão Sequoia Capital, Kaszek Ventures, Tiger Global Management, Founders Fund, Goldman Sachs, QED Investors, DST Global, Redpoint Ventures, Ribbit Capital, Dragoneer Investment Group, Thrive Capital, Tencent e Warren Buffett (Berkshire Hathaway).
+
+O Nubank foi fundado por David Vélez, um colombiano radicado nos Estados Unidos que, em outubro de 2012, dirigiu-se à cidade de São Paulo para tentar abrir um escritório do fundo Sequoia, mas não obteve êxito. Frustrado com sua experiência nos bancos no país, decidiu, em maio de 2013, com a brasileira Cristina Junqueira e o estadunidense Edward Wible, fundar uma startup que ofereceria serviços bancários sem qualquer tarifa. O escritório era uma pequena casa localizada no bairro Brooklin em São Paulo. Depois de um ano, precisaram de um lugar maior para abrigar seus 300 funcionários. Em 2014, começou a receber aporte de fundos de investimento internacionais.
+
+Em novembro de 2016, possibilitou aos usuários o pagamento antecipado de compras parceladas, gerando um desconto pra quem utilizasse essa modalidade. A função, disponibilizada inicialmente aos usuários do sistema Android, foi a primeira a existir entre os cartões de crédito brasileiros. Constatou-se, em 2019, uma economia de R$ 20 milhões para os clientes que adotaram essa forma de pagamento desde a sua adoção.
+
+Em fevereiro de 2018, tornou-se uma empresa unicórnio. Em outubro de 2018, foi avaliada em 4 bilhões de dólares, após a Tencent adquirir 5% da participação na empresa. Em 11 de dezembro de 2018, a fintech iniciou, de maneira progressiva, a funcionalidade débito em seus cartões.
+
+Em 8 em abril de 2019, foi lançada a comunidade online NuCommunity, uma plataforma de discussão entre clientes e não clientes que oferta exclusividades aos membros mais engajados. No mesmo ano, após o lançamento do novo design do seu cartão, a empresa entrou para o Guinness Book ao fazer o maior unboxing do mundo. Em maio de 2019, a empresa anunciou sua chegada ao México através de uma nova filial chamada Nu, sendo a primeira vez a oferecer serviços fora do Brasil. Em junho de 2019, a empresa anunciou a abertura de um escritório em Buenos Aires, na Argentina.
+
+Em janeiro de 2020, fez sua primeira aquisição, com a compra da Plataformtec, empresa especializada em engenharia de software e metodologias ágeis. Em setembro de 2020, adquiriu a corretora Easynvest, posteriormente renomeada para Nu invest. Em novembro de 2021, a empresa anunciou a aquisição da startup Olivia, que oferece ferramentas de controle financeiro com foco em inteligência artificial. Com a aquisição, o Nubank informou a intenção de integrar os serviços oferecidos pela startup aos seus produtos.
+
+Em março de 2022, apresentou o NuPay como solução de pagamentos de compras por débito e crédito utilizando o aparelho celular.
+
+Em março de 2016, o Nubank anunciou que estava preparando um programa de pontos próprio. O Nubank Rewards consiste num programa de benefícios do cartão Nubank. Com ele, cada R$ 1 gasto equivale a 1 ponto acumulado. Os pontos nunca expiram e podem ser usados para eliminar da fatura gastos com restaurantes, passagens aéreas, hospedagem e também com uma série de serviços parceiros.
