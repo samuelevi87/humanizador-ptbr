@@ -10,7 +10,7 @@ Usa o modo embutido que o próprio SKILL.md do Humanizer define ("return only
 the final text"), para que a saída possa ser medida sem limpar rascunhos.
 
 Uso:
-  python scripts/reescrever.py --skill caminho/SKILL.md --nome blader-3.1.0 \
+  python scripts/reescrever.py --skill referencia/blader-humanizer-3.1.0/humanizer-3.1.0.md --nome blader-3.1.0 \
       --perfil 024848461026_IADevPocAccess --modelo us.anthropic.claude-sonnet-5-5
 """
 import argparse
