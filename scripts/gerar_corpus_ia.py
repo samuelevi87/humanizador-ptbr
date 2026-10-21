@@ -54,12 +54,20 @@ GENEROS = {
 
 
 def gerar(cliente, modelo_id: str, prompt: str) -> str:
-    """Chama a Converse API com um único turno de usuário e devolve o texto da resposta."""
-    resp = cliente.converse(
-        modelId=modelo_id,
-        messages=[{"role": "user", "content": [{"text": prompt}]}],
-        inferenceConfig={"maxTokens": 1500, "temperature": 0.7},
-    )
+    """Chama a Converse API com um único turno de usuário e devolve o texto da resposta.
+
+    Usa temperatura 0,7; modelos que recusam o parâmetro (ex.: GPT-5.x) são
+    chamados de novo com a temperatura padrão deles.
+    """
+    mensagens = [{"role": "user", "content": [{"text": prompt}]}]
+    try:
+        resp = cliente.converse(modelId=modelo_id, messages=mensagens,
+                                inferenceConfig={"maxTokens": 1500, "temperature": 0.7})
+    except cliente.exceptions.ValidationException as erro:
+        if "temperature" not in str(erro):
+            raise
+        resp = cliente.converse(modelId=modelo_id, messages=mensagens, inferenceConfig={"maxTokens": 1500})
+    # Modelos de raciocínio podem devolver blocos sem "text" (ex.: reasoningContent)
     return "".join(b.get("text", "") for b in resp["output"]["message"]["content"])
 
 

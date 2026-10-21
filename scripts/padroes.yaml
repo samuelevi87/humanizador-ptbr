@@ -21,6 +21,8 @@ padroes:
       - '(?<!\w)não (apenas|só|somente|meramente) [^.!?]{1,80}?,? mas (também )?'
       - '(?<!\w)mais do que (um|uma|apenas|só) [^.!?]{1,60}?, (é|são|trata-se)(?!\w)'
       - '(?<!\w)longe de ser(?!\w)'
+      # forma dividida em duas frases: "Não foi o ganho de tempo. Foi o aprendizado."
+      - '(?<!\w)não (foi|é|era|são|foram) [^.!?]{1,100}[.!]\s+(foi|é|era|são|foram)(?!\w)'
   - id: A2
     nome: "fecho de efeito e fragmento dramático"
     regex:
