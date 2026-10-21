@@ -35,6 +35,7 @@ def normalizar(texto: str) -> str:
         t = re.sub(rf"(?<!\w){palavra}(?!\w)", digito, t)
     t = re.sub(r"(\d+)\s*mil(?!\w)", lambda m: m.group(1) + "000", t)
     t = re.sub(r"(?<=\d)\.(?=\d{3}(?!\d))", "", t)  # separador de milhar: 1.200 -> 1200
+    t = re.sub(r"(?<=\d),00(?!\d)", "", t)  # centavos zerados: R$ 289,00 -> 289
     return t.replace(",", ".")
 
 

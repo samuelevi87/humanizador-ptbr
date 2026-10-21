@@ -1,0 +1,8 @@
+<!-- skill: ptbr-0.3.0
+     modelo: us.anthropic.claude-sonnet-5-5 -->
+
+A Petrobras (Petróleo Brasileiro S.A., pronuncia-se Petrobrás) é uma sociedade anônima de capital aberto e estatal de economia mista, com o Governo do Brasil (União) como acionista majoritário. Tem sede no Rio de Janeiro e opera em 14 países, principalmente em exploração, produção, refino, comercialização e transporte de petróleo, gás natural e derivados. Seu lema atual é "Uma empresa integrada de energia que atua com responsabilidade social e ambiental". No ranking Forbes Global 2000 de 2020, foi a septuagésima maior empresa pública do mundo.
+
+Foi instituída em 3 de outubro de 1953 e perdeu o monopólio da indústria petroleira no Brasil em 1997, mas segue como grande produtora, com mais de 2 milhões de barris por dia (320 mil metros cúbicos). Tem refinarias e petroleiros e distribui derivados de petróleo em grande escala. É líder mundial no desenvolvimento de tecnologia para exploração de petróleo em águas profundas e ultraprofundas.
+
+Em 2011, estava em quinto lugar entre as maiores petrolíferas de capital aberto do mundo. Em valor de mercado, foi em 2010 a segunda maior empresa do continente americano e a quarta do mundo. Em setembro daquele ano, passou a segunda maior empresa de energia do mundo pelo mesmo critério, segundo a Bloomberg e a Agência Brasil. Também em setembro de 2010, fez a maior capitalização em capital aberto da história: 72,8 bilhões de dólares (127,4 bilhões de reais na época), quase o dobro do recorde anterior, da Nippon Telegraph and Telephone (NTT), que captou 36,8 bilhões de dólares em novembro de 1987.

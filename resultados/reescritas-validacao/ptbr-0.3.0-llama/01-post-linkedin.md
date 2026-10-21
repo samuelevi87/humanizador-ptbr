@@ -1,0 +1,4 @@
+<!-- skill: ptbr-0.3.0-llama
+     modelo: us.meta.llama4-maverick-17b-instruct-v1:0 -->
+
+Uma fábrica com 900 funcionários trocou de sistema de ponto eletrônico. A implantação durou 3 meses e envolveu áreas operacionais, RH, liderança de produção e tecnologia. No início, 14% das marcações apresentavam erro de turno. Em vez de culpar o sistema ou os funcionários, analisamos o processo e percebemos que era preciso envolver mais os supervisores. Eles conhecem a operação e conseguem identificar inconsistências. Então, implementamos uma rotina: toda sexta-feira, os supervisores revisam as marcações da semana com suas equipes. Com isso, o erro caiu para 2%. Essa experiência mostrou que tecnologia sozinha não resolve; o que faz diferença é a combinação de sistema, rotina, comunicação e liderança próxima da operação. Mais do que trocar uma ferramenta, criamos um novo hábito de gestão, e esse foi o maior ganho do projeto.

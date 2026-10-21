@@ -1,0 +1,4 @@
+<!-- skill: ptbr-0.3.0-nova
+     modelo: us.amazon.nova-pro-v1:0 -->
+
+Para um catálogo de 300 produtos, geralmente não é necessário começar com um banco de dados vetorial. Uma busca por palavra-chave com filtros é suficiente, especialmente se os produtos tiverem bons nomes, descrições, categorias e atributos. Um banco de dados vetorial pode ser útil se os usuários costumarem buscar de forma mais livre, como descrever o que querem com palavras diferentes das usadas no catálogo. Minha recomendação é começar sem um banco de dados vetorial, usando busca textual e filtros, e monitorar métricas como buscas sem resultado, buscas com poucos cliques, termos digitados pelos usuários e produtos que deveriam aparecer, mas não aparecem. Se muitas buscas relevantes ficarem sem resultado por diferença de vocabulário, pode ser interessante adicionar uma busca vetorial ou híbrida.
