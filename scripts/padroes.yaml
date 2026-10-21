@@ -1,0 +1,157 @@
+# padroes.yaml
+#
+# Fonte única dos padrões que o contar_padroes.py mede no corpus. Cada entrada
+# tem um id (ligado ao catálogo do SKILL.md), uma descrição curta e uma ou mais
+# expressões regulares (Python, aplicadas sem diferenciar maiúsculas).
+#
+# Estado: semente (v0). As regex vêm da adaptação dos 26 padrões do Humanizer
+# original e do grupo G, específico do português. Entram no SKILL.md só os
+# padrões que se mostrarem bem mais frequentes em corpus/ia do que em
+# corpus/humano.
+#
+# Convenção: \b não funciona bem antes de letra acentuada em algumas posições,
+# por isso as listas de palavras usam (?<!\w) e (?!\w) como fronteira.
+
+padroes:
+  # --- A. Encenar em vez de afirmar ---
+  - id: A1
+    nome: "não X, é Y / não apenas X, mas Y"
+    regex:
+      - '(?<!\w)não (é|são|foi|se trata de|significa) [^.!?]{1,80}?, (é|são|e sim|mas)(?!\w)'
+      - '(?<!\w)não (apenas|só|somente|meramente) [^.!?]{1,80}?,? mas (também )?'
+      - '(?<!\w)mais do que (um|uma|apenas|só) [^.!?]{1,60}?, (é|são|trata-se)(?!\w)'
+      - '(?<!\w)longe de ser(?!\w)'
+  - id: A2
+    nome: "fecho de efeito e fragmento dramático"
+    regex:
+      - '(?<!\w)(e isso muda tudo|simples assim|fica a reflexão|pense nisso|leia de novo|ponto final)[.!]'
+      - '(?<!\w)(e é isso que importa|essa é a verdadeira lição|a mensagem é clara)(?!\w)'
+  - id: A3
+    nome: "frase que soa profunda"
+    regex:
+      - '(?<!\w)(no fim do dia|no final do dia|no fundo,|em sua essência|a verdadeira questão|o segredo está|o que realmente importa)(?!\w)'
+  - id: A4
+    nome: "preparação antes do ponto"
+    regex:
+      - '(?<!\w)(vamos lá|vamos mergulhar|vamos explorar|sem mais delongas|spoiler:|sendo (bem )?sincero|a real é que|pensa comigo|o ponto é:)'
+  - id: A5
+    nome: "discutir com ninguém"
+    regex:
+      - '(?<!\w)(não estou dizendo que|para deixar claro|não me entenda mal|alguns podem pensar|seria tentador|pode parecer que)(?!\w)'
+
+  # --- B. Ritmo por regra ---
+  - id: B6
+    nome: "tríade de substantivos"
+    regex:
+      - '(?<!\w)\w{4,}, \w{4,} e \w{4,}[.!]'
+  - id: B8
+    nome: "travessão em prosa"
+    regex:
+      - ' [—–] '
+      - '\w[—–]\w'
+  - id: B9
+    nome: "qualificadores empilhados"
+    regex:
+      - '(?<!\w)(pode|poderia) (potencialmente|eventualmente|possivelmente) '
+  - id: B11
+    nome: "passiva analítica sem agente"
+    regex:
+      - '(?<!\w)(foi|foram|é|são) (realizad|efetuad|implementad|desenvolvid)[oa]s?(?! por)(?!\w)'
+
+  # --- G. Tiques do português de LLM ---
+  - id: G1
+    nome: "conectores de redação escolar"
+    regex:
+      - '(^|[.!?]\s+)(além disso|ademais|dessa forma|desta forma|nesse sentido|neste sentido|diante disso|por fim|em suma|em resumo|outrossim),'
+  - id: G2
+    nome: "anúncio de relevância"
+    regex:
+      - '(?<!\w)(vale (a pena )?(ressaltar|destacar|lembrar|mencionar)|é importante (destacar|ressaltar|notar|lembrar|mencionar)|cabe (destacar|ressaltar|mencionar)|é fundamental (entender|compreender|destacar))(?!\w)'
+  - id: G3
+    nome: "abertura de cenário genérico"
+    regex:
+      - '(?<!\w)(no cenário atual|em um mundo cada vez mais|num mundo cada vez mais|nos dias de hoje|na era digital|com o avanço da tecnologia|no mundo atual)(?!\w)'
+  - id: G4
+    nome: "calques do inglês"
+    regex:
+      - '(?<!\w)(endereçar|endereçando) (o|os|a|as|esse|essa|um|uma) (problema|desafio|questão|ponto)'
+      - '(?<!\w)(isso dito|dito isso|em termos de|performar|performando)(?!\w)'
+  - id: G5
+    nome: "verbos corporativos inflados"
+    regex:
+      - '(?<!\w)(alavanc|potencializ|impulsion|fomentar|fomenta|viabiliz|desbloque)\w*'
+      - '(?<!\w)agreg(ar|a|ando) valor(?!\w)'
+  - id: G6
+    nome: "substantivos de palestra"
+    regex:
+      - '(?<!\w)(jornada|ecossistema|sinergia|protagonismo|mindset|pilares?)(?!\w)'
+  - id: G7
+    nome: "realizar/efetuar como verbo-suporte"
+    regex:
+      - '(?<!\w)(realiz|efetu)(ar|a|am|ou|aram|ando|ada|ado|adas|ados) (a|o|as|os|uma|um) \w+'
+  - id: G8
+    nome: "possui no lugar de tem"
+    regex:
+      - '(?<!\w)(possui|possuem|possuía|possuíam)(?!\w)'
+  - id: G9
+    nome: "fórmulas formais fora de contexto"
+    regex:
+      - '(?<!\w)(no que tange|no que diz respeito|tendo em vista que|visando (a |ao |à )?)'
+  - id: G10
+    nome: "pergunta retórica de engajamento"
+    regex:
+      - '(?<!\w)(mas afinal|e você,? já|já parou para pensar|faz sentido\?|o que isso significa\?)'
+
+  # --- C. Inflação e autoridade emprestada ---
+  - id: C12
+    nome: "vocabulário típico de IA"
+    regex:
+      - '(?<!\w)(crucial|cruciais|primordial|robust[oa]s?|mergulh\w+|desvend\w+|desbrav\w+|panorama|tapeçaria|meticulos\w+|vibrantes?|intrincad\w+|multifacetad\w+|holístic\w+|inegáve(l|is)|transformador\w*)(?!\w)'
+  - id: C13
+    nome: "importância inflada"
+    regex:
+      - '(?<!\w)(marco (importante|histórico|significativo)|divisor de águas|legado duradouro|deixou um legado|em constante evolução|futuro promissor|desafios e oportunidades|papel (fundamental|crucial|essencial|central))(?!\w)'
+  - id: C14
+    nome: "conexão vaga"
+    regex:
+      - '(?<!\w)(associad[oa]s? a|ligad[oa]s? a|em conexão com|relacionad[oa]s? a)(?!\w)'
+  - id: C15
+    nome: "gerúndio em cascata"
+    regex:
+      - ', (destacando|garantindo|promovendo|refletindo|reforçando|contribuindo|evidenciando|consolidando|ressaltando|demonstrando|proporcionando|permitindo)(?!\w)'
+  - id: C16
+    nome: "linguagem de vendas"
+    regex:
+      - '(?<!\w)(no coração d[eoa]|de tirar o fôlego|renomad[oa]s?|rico patrimônio|verdadeira joia|imperdível|deslumbrante|inovador[ae]?s?)(?!\w)'
+  - id: C17
+    nome: "autoridade emprestada"
+    regex:
+      - '(?<!\w)(especialistas (apontam|afirmam|acreditam|destacam)|estudos (mostram|indicam|apontam)|pesquisas (mostram|indicam|apontam)|segundo especialistas)(?!\w)'
+  - id: C18
+    nome: "evitar é/tem"
+    regex:
+      - '(?<!\w)(atua como|funciona como|se configura como|se apresenta como|serve como|conta com|dispõe de|se destaca como)(?!\w)'
+
+  # --- D. Formatação por regra ---
+  - id: D19
+    nome: "negrito"
+    regex:
+      - '\*\*[^*\n]+\*\*'
+  - id: D20
+    nome: "emoji"
+    regex:
+      - '[\U0001F300-\U0001FAFF✅✨➡→]'
+
+  # --- E. Resíduos de chat ---
+  - id: E22
+    nome: "resíduo de chatbot"
+    regex:
+      - '(?<!\w)(ótima pergunta|claro!|com certeza!|espero ter ajudado|fico à disposição|quer que eu|se precisar de algo mais|posso ajudar)(?!\w)'
+  - id: E23
+    nome: "ressalva de limite de conhecimento"
+    regex:
+      - '(?<!\w)(até a data do meu conhecimento|com base nas informações disponíveis|não há informações amplamente|não foram encontradas informações)(?!\w)'
+  - id: E25
+    nome: "escrever sobre o documento"
+    regex:
+      - '(?<!\w)(este (documento|texto|artigo|post) (apresenta|aborda|explora)|a tabela abaixo|nesta seção,? (vamos|iremos|apresentamos))(?!\w)'
