@@ -10,7 +10,7 @@ description: |
   e do guia "Signs of AI writing" da Wikipedia, com catálogo medido em corpus.
 license: MIT
 metadata:
-  version: "0.3.0"
+  version: "1.0.0"
   baseado_em: "blader/humanizer 3.1.0"
 ---
 
