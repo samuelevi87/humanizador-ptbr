@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "humanizador-ptbr",
   "description": "Reescreve texto em português do Brasil com cara de IA para que soe como quem escreveu, sem mudar o que diz.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": {
     "name": "samuelevi87",
     "url": "https://github.com/samuelevi87"
